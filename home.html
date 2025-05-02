@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="burger-fon d-n" id="bur-nenu">
+		<div class="burger-menu">
+		<div class="burger-menu-button">
+			<button type="button">ШИНЫ</button>
+			<button type="button">ГРУЗОВЫЕ ШИНЫ</button>
+			<button type="button">МОТОШИНЫ</button>
+			<button type="button">ДИСКИ</button>
+			<button type="button">ПУНКТЫ ВЫДАЧИ</button>
+			<button type="button">АКЦИИ</button>
+			<button type="button">КОНТАКТЫ</button>
+		</div>
+		<div class="info-burger-menu">
+			<div class="work">
+				<h1>Режим работы:</h1>
+				<p>Пн-Вс: с 09:00-20:00</p>
+			</div>
+			<div class="phone">
+				<p>8 (800) 555-13-26</p>
+				<h1>Заказать звонок</h1> </div>
+		</div>
+		<div class="close-menu">
+			<img src="img/cross-svgrepo-com.svg" alt="">
+		</div>
+	</div>
+	</div>
+	<header>
+		<div class="header-adop header-adop-d-n">
+		<div class="header-adop-button">
+			<div class="bur-menu" id="active-menu">
+				<img src="img/Group-1-1.svg" alt="">
+			</div>
+			<div class="profil-button">
+				<div class="shiny-nigon">
+					<img src="img/image-3-1.svg" alt="">
+				</div>
+				<div class="profil-cart">
+					<img src="img/Vector-41.svg" alt="">
+					<img src="img/Shopping-cart-3.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-adop-input">
+		<div class="input">
+			<input placeholder="Поиск по каталогу" type="text">
+			<img src="img/Vector-43.svg" alt="">
+		</div>
+	</div>
+		<div class="button-titel">
+			<div class="dropdown">
+				<button class="dropbtn" onclick="toggleDropdown()">Санкт-Петербург <img src="img/Vector-27.svg" alt=""></button>
+				<div class="dropdown-content" id="dropdownContent"> <a href="#">Москва</a> <a href="#">Воронеж</a> <a href="#">Новосибирск</a> </div>
+			</div>
+			<div class="button-navigation">
+				<button type="">Доставка</button>
+				<button type="">Отзывы</button>
+				<button type="">Покупателям</button>
+			</div>
+			<div class="search-titel">
+				<input placeholder="Поиск по сайту" type="text"> <img src="img/Search.svg" alt=""> </div>
+			<div class="private-sign-fon">
+				<div class="private-sign-titel"> <img src="img/Vector.png" alt="">
+					<div class="private-sign-text">
+						<div class="private-sign">
+							<p>честный</p>
+							<h1>знак</h1> </div>
+						<h2>национальная <br> система цифровой <br> маркировки</h2> </div>
+				</div>
+			</div>
+			<div class="login"> <img src="img/Login.svg" alt="">
+				<p>Войти</p>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="header-info">
+			<div class="header-info-sevice">
+				<div class="shiny-migom"> <img src="img/image-3.svg" alt=""> </div>
+				<div class="Yndex"> <img src="img/image-25.svg" alt=""> </div>
+			</div>
+			<div class="work">
+				<h1>Режим работы:</h1>
+				<p>Пн-Вс: с 09:00-20:00</p>
+			</div>
+			<div class="phone">
+				<p>8 (800) 555-13-26</p>
+				<h1>Заказать звонок</h1> </div>
+			<div class="cart-button">
+				<div class="cart-button-actives"> <img src="img/Vector-29.svg" alt=""> <img src="img/Settings-adjust.svg" alt=""> </div>
+				<div class="cart">
+					<div class="cart-img"> <img src="img/Shopping-cart.svg" alt="">
+						<p class="cart-nomber">0</p>
+					</div>
+					<div class="cart-text">
+						<p>Корзина</p>
+						<h1>9 товаров</h1> </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="button-header">
+			<button type="button">ШИНЫ</button>
+			<button type="button">ГРУЗОВЫЕ ШИНЫ</button>
+			<button type="button">МОТОШИНЫ</button>
+			<button type="button">ДИСКИ</button>
+			<button type="button">ПУНКТЫ ВЫДАЧИ</button>
+			<button type="button">АКЦИИ</button>
+			<button type="button">КОНТАКТЫ</button>
+		</div>
+	</section>
+	<main>
+
+		<section>
+			<div class="container-filters">
+				<div class="col-filters">
+					<div class="filters-titel">
+						<div class="filter-name"> <img src="img/Group-4.svg" alt="">
+							<p>Подбор шин по типоразмеру</p>
+						</div>
+						<h1>По авто</h1> </div>
+					<div class="filters-sistings">
+						<div class="filters-sistings-dropdown">
+							<div class="filter-dropdown">
+								<button class="filter-btn" onclick="toggleFilterDropdown('filterDropdown')">Ширина <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content" id="filterDropdown"> 
+									<button type="button">135</button>
+									<button type="button">150</button>
+									<button type="button">160</button>
+									<button type="button">190</button>
+									<button type="button">220</button>
+									<button type="button">200</button>
+								 </div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-haight" onclick="toggleFilterDropdownhaight('filterDropdown-haight')">Высота <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-haight" id="filterDropdown-haight">
+									<button type="button">80</button>
+									<button type="button">90</button>
+									<button type="button">100</button>
+									<button type="button">120</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-dia" onclick="toggleFilterDropdowndia('filterDropdown-dia')">Диаметр <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-dia" id="filterDropdown-dia">
+									<button type="button">r13</button>
+									<button type="button">r14</button>
+									<button type="button">r15</button>
+									<button type="button">r16</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-maker" onclick="toggleFilterDropdown('filterDropdown-maker')">Производитель <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-maker" id="filterDropdown-maker">
+									<button type="button">Michelin</button>
+									<button type="button">Bridgestone</button>
+									<button type="button">Hankook</button>
+									<button type="button">Triangle Group</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-season" onclick="toggleFilterDropdown('filterDropdown-season')">Сезон <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-season" id="filterDropdown-season">
+									<button type="button">Зима</button>
+									<button type="button">Лети</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-Outer-diameter" onclick="toggleFilterDropdown('filterDropdown-Outer-diameter')">Вн-ий диаметр <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-Outer-diameter" id="filterDropdown-Outer-diameter">
+									<button type="button">175</button>
+									<button type="button">190</button>
+									<button type="button">200</button>
+									<button type="button">220</button>
+								</div>
+							</div>
+						</div>
+						<div class="filter-check-bar">
+							<div class="selection-container">
+								<input type="checkbox" id="Спорт-пакет" class="custom-checkbox">
+								<label for="Спорт-пакет">Спорт-пакет</label>
+							</div>
+							<div class="selection-container">
+								<input type="checkbox" id="runFlat-1" class="custom-checkbox">
+								<label for="runFlat-1">Run Flat</label>
+							</div>
+							<div class="selection-container" id="selection-container">
+								<input type="checkbox" id="Усыпанность (с)" class="custom-checkbox">
+								<label for="Усыпанность (с)">Усыпанность (с)</label>
+							</div>
+						</div>
+						<div class="filters-button" id="filters-button-adop">
+							<button type="button">Подобрать</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-filters">
+					<div class="filters-titel">
+						<div class="filter-name" id="filter-name"> <img src="img/wheel-1.svg" alt="">
+							<p>Подбор дисков по типоразмеру</p>
+						</div>
+						<h1>По авто</h1> </div>
+					<div class="filters-sistings">
+						<div class="filters-sistings-dropdown">
+							<div class="filter-dropdown">
+								<button class="filter-btn-maker-disk" onclick="toggleFilterDropdown('filterDropdown-maker-disk')">Производитель <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-maker-disk" id="filterDropdown-maker-disk">
+									<button type="button">AEZ</button>
+									<button type="button">BBS</button>
+									<button type="button">Alutec</button>
+									<button type="button">MAK</button>
+									<button type="button">iFree</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-disk" onclick="toggleFilterDropdown('filterDropdown-disk')">Ширина <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-disk" id="filterDropdown-disk">
+									<button type="button"> 5,0 дюймов</button>
+									<button type="button"> 6,0 дюймов</button>
+									<button type="button"> 7,0 дюймов</button>
+									<button type="button"> 10,0 дюймов</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-haight-disk" onclick="toggleFilterDropdownhaight('filterDropdown-haight-disk')">Высота <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-haight-disk" id="filterDropdown-haight-disk">
+									<button type="button">13,0 дюймов</button>
+									<button type="button">14,0 дюймов</button>
+									<button type="button">15,0 дюймов</button>
+									<button type="button">16,0 дюймов</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-dia-disk" onclick="toggleFilterDropdowndia('filterDropdown-dia-disk')">Диаметр <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-dia-disk" id="filterDropdown-dia-disk">
+									<button type="button">10,0 дюймов</button>
+									<button type="button">11,0 дюймов</button>
+									<button type="button">16,0 дюймов</button>
+									<button type="button">20,0 дюймов</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-Fasteners-disk" onclick="toggleFilterDropdown('filterDropdown-Fasteners-disk')">Крепёж <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-Fasteners-disk" id="filterDropdown-Fasteners-disk">
+									<button type="button">Болты</button>
+									<button type="button">Гайки</button>
+									<button type="button">Шпильки</button>
+									<button type="button">Гайки-секретки</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-PCD-disk" onclick="toggleFilterDropdown('filterDropdown-PCD-disk')">PCD <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-PCD-disk" id="filterDropdown-PCD-disk">
+									<button type="button">5х114.3</button>
+									<button type="button">3х112</button>
+									<button type="button">4х108</button>
+									<button type="button">6х139.7</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-DIA-disk" onclick="toggleFilterDropdown('filterDropdown-DIA-disk')">DIA <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-DIA-disk" id="filterDropdown-DIA-disk">
+									<button type="button">57,1 мм</button>
+									<button type="button">67,1 мм</button>
+									<button type="button">59,3 мм</button>
+									<button type="button">60,5 мм</button>
+									<button type="button">53,9 мм</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-ET-disk" onclick="toggleFilterDropdown('filterDropdown-ET-disk')">ET <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-ET-disk" id="filterDropdown-ET-disk">
+									<button type="button">ET42</button>
+									<button type="button">ET46</button>
+									<button type="button">ET39</button>
+									<button type="button">ET57</button>
+									<button type="button">ET34</button>
+								</div>
+							</div>
+							<div class="filter-dropdown">
+								<button class="filter-btn-Disk-type-disk" onclick="toggleFilterDropdown('filterDropdown-Disk-type-disk')">Тип диска <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-Disk-type-disk" id="filterDropdown-Disk-type-disk">
+									<button type="button">Стальные диски</button>
+									<button type="button">Легкосплавные кованые</button>
+									<button type="button">Легкосплавные литые</button>
+								</div>
+							</div>
+						</div>
+						<div class="filters-button-disk">
+							<button type="button">Подобрать</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="filters-col-adop-container">
+				<div class="filters-col-adop">
+				<div class="filters-titel-adop">
+					<div class="col-filters-titel-adop">
+						<div class="col-filters-titel">
+							<img src="img/Group-4.svg" alt="">
+							<p>Шины</p>
+						</div>
+						<div class="name-filters bor" id="by-car-btn" >
+							<p>По авто</p>
+						</div>
+					</div>
+					<div class="col-filters-titel-adop">
+						<div class="col-filters-titel-right toggle-btn">
+							<img src="img/wheel-1.svg" alt="">
+							<p>Диски</p>
+						</div>
+						<div class="name-filters bor-right toggle-btn" id="by-size-btn">
+							<p>По размеру</p>
+						</div>
+					</div>
+				</div>
+				<div class="filter-body-adop-tires" id="by-car-block">
+					<div class="filter-body-adop">
+							<div class="filter-dropdown filter-dropdown-adop">
+								<button class="filter-btn-marc" onclick="toggleFilterDropdownmarc('filterDropdown-marc')">Марка <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-marc" id="filterDropdown-marc">
+									<button type="button">AEZ</button>
+									<button type="button">BBS</button>
+									<button type="button">Alutec</button>
+									<button type="button">MAK</button>
+									<button type="button">iFree</button>
+								</div>
+							</div>
+					</div>
+					<div class="filter-body-adop">
+							<div class="filter-dropdown filter-dropdown-adop">
+								<button class="filter-btn-model" onclick="toggleFilterDropdownmodel('filterDropdown-model')">Модель <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-model" id="filterDropdown-model">
+									<button type="button">6.5Jx15 H2 5/100 ET45 d54.1</button>
+									<button type="button">6.5Jx15 H2 5/100 ET45 d54.1</button>
+									<button type="button">6.5Jx15 H2 5/100 ET45 d54.1</button>
+								</div>
+							</div>
+					</div>
+					<div class="filter-body-adop">
+							<div class="filter-dropdown filter-dropdown-adop">
+								<button class="filter-btn-year" onclick="toggleFilterDropdownyear('filterDropdown-year')">Год <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-year" id="filterDropdown-year">
+									<button type="button">2022</button>
+									<button type="button">2020</button>
+									<button type="button">2012</button>
+									<button type="button">2023</button>
+								</div>
+							</div>
+					</div>
+					<div class="filter-body-adop">
+							<div class="filter-dropdown filter-dropdown-adop">
+								<button class="filter-btn-modifecatens" onclick="toggleFilterDropdownmodifecatens('filterDropdown-modifecatens')">Модификация <img src="img/Vector-27.svg" alt=""></button>
+								<div class="filter-dropdown-content-modifecatens" id="filterDropdown-modifecatens">
+									<button type="button">Ширина обода</button>
+									<button type="button">Вылет</button>
+									<button type="button">Хампы</button>
+									<button type="button">Разъёмность обода</button>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="filter-body-adop-disck" id="by-size-block" style="display: none;">
+					<div class="filter-dropdown filter-dropdown-adop">
+						<button class="filter-btn-diskadop" onclick="toggleFilterDropdownadop('filterDropdown-diskadop')">Ширина <img src="img/Vector-27.svg" alt=""></button>
+						<div class="filter-dropdown-content-diskadop" id="filterDropdown-diskadop">
+							<button type="button">120</button>
+							<button type="button">160</button>
+							<button type="button">175</button>
+							<button type="button">220</button>
+						</div>
+					</div>
+					<div class="filter-dropdown filter-dropdown-adop">
+						<button class="filter-btn-hight" onclick="toggleFilterDrophight('filterDropdown-hight')">Высота <img src="img/Vector-27.svg" alt=""></button>
+						<div class="filter-dropdown-content-hight" id="filterDropdown-hight">
+							<button type="button">200</button>
+							<button type="button">220</button>
+							<button type="button">160</button>
+							<button type="button">175</button>
+						</div>
+					</div>
+					<div class="filter-dropdown filter-dropdown-adop">
+						<button class="filter-btn-Diameter" onclick="toggleFilterDropDiameter('filterDropdown-Diameter')">Диаметр <img src="img/Vector-27.svg" alt=""></button>
+						<div class="filter-dropdown-content-Diameter" id="filterDropdown-Diameter">
+							<button type="button">r14</button>
+							<button type="button">r15</button>
+							<button type="button">r16</button>
+							<button type="button">r17</button>
+							<button type="button">r18</button>
+						</div>
+					</div>
+					<div class="filter-dropdown filter-dropdown-adop">
+						<button class="filter-btn-makeradopfactor" onclick="toggleFilterDropmakeradopfactor('filterDropdown-makeradopfactor')">Производитель <img src="img/Vector-27.svg" alt=""></button>
+						<div class="filter-dropdown-content-makeradopfactor" id="filterDropdown-makeradopfactor">
+							<button type="button">AEZ</button>
+							<button type="button">BBS</button>
+							<button type="button">Alutec</button>
+						    <button type="button">MAK</button>
+							<button type="button">iFree</button>
+						</div>
+					</div>
+					<div class="filter-dropdown filter-dropdown-adop">
+						<button class="filter-btn-Season" onclick="toggleFilterDropSeason('filterDropdown-Season')">Сезон <img src="img/Vector-27.svg" alt=""></button>
+						<div class="filter-dropdown-content-Season" id="filterDropdown-Season">
+							<button type="button">Зима</button>
+							<button type="button">Лето</button>
+						</div>
+					</div>
+					<div class="filter-dropdown filter-dropdown-adop">
+						<button class="filter-btn-outer-diameter" onclick="toggleFilterDropouterdiameter('filterDropdown-outer-diameter')">Внешний диаметр <img src="img/Vector-27.svg" alt=""></button>
+						<div class="filter-dropdown-content-outer-diameter" id="filterDropdown-outer-diameter">
+							<button type="button">175</button>
+							<button type="button">190</button>
+							<button type="button">200</button>
+							<button type="button">220</button>
+						</div>
+					</div>
+					<div class="filter-check-bar-disck">
+							<div class="selection-container-disck">
+								<input type="checkbox" id="Спорт-пакет-disck" class="custom-checkbox-disck">
+								<label for="Спорт-пакет-disck">Спорт-пакет</label>
+							</div>
+							<div class="selection-container-disck">
+								<input type="checkbox" id="runFlat-1-disck" class="custom-checkbox-disck">
+								<label for="runFlat-1-disck">Run Flat</label>
+							</div>
+							<div class="selection-container-disck" id="selection-container">
+								<input type="checkbox" id="Усыпанность (с)-disck" class="custom-checkbox-disck">
+								<label for="Усыпанность (с)-disck">Усыпанность (с)</label>
+							</div>
+						</div>
+				</div>
+			</div>
+			</div>
+			
+		</section>
+		<section>
+			<div class="catalog-titel">
+				<div class="button-catalog-col">
+					<a href="model-card.html">
+						<div class="button-catalog"> <img class="catalog-img" src="img/Group-198.svg" alt="">
+						<div class="button-catalog-text">
+							<p>Шины</p> <img src="img/up_arrow_6lbje8fkab1r.svg" alt=""> </div>
+					</div>
+					</a>
+					<a href="model-card.html">
+						<div class="button-catalog"> <img class="catalog-img-disk" src="img/Niche_Mulsanne_20x10_4456 1.svg" alt="">
+						<div class="button-catalog-text">
+							<p>Диски</p> <img src="img/up_arrow_6lbje8fkab1r.svg" alt=""> </div>
+					</div>
+				</a>
+					
+				</div>
+				<div class="button-catalog-col-2-container">
+							<div class="button-catalog-col-2">
+					<a href="model-card.html">
+						<div class="button-catalog-fon">
+						<div class="button-catalog-text-col">
+							<p>Диски</p> <img src="img/up_arrow_6lbje8fkab1r.svg" alt=""> </div>
+						<div class="button-catalog-fon-img"> <img src="img/Group-1.svg" alt=""> </div>
+					</div>
+					</a>
+
+				</div>
+				<div class="button-catalog-col-2">
+					<a href="model-card.html">
+						<div class="button-catalog-fon" id="hight-track-carta">
+						<div class="button-catalog-text-col">
+							<p>Грузовые</p> <img src="img/up_arrow_6lbje8fkab1r.svg" alt=""> </div>
+						<div class="button-catalog-fon-img-track"> <img src="img/gmhd_pass_side4-1024x386 1.svg" alt=""> </div>
+					</div>
+					</a>
+					
+				</div>
+				</div>
+				
+			</div>
+		</section>
+		<section>
+			<div class="hot-sell">
+				<div class="hot-sell-titel">
+					<div class="hot-sell-logo">
+						<p>Популярные шины</p>
+					</div>
+					<div class="button-hot-sell">
+						<p>Смотреть все</p> <img src="img/Vector-31.svg" alt=""> </div>
+				</div>
+				<div class="container-swiper">
+					<button id="customPrevButton1"><img src="img/Vector-35.svg" alt=""></button>
+					<div class="swiper SwiperHotSell" id="swiper1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCarta">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovorit"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+										
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide2">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide2"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide3">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide3"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide4">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide4"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide5">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide5"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide6">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide6"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide7">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide7"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>	
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide8">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide8"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>	
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide9">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide9"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button id="customNextButton1"><img src="img/Vector-36.svg" alt=""></button>
+				</div>
+			</div>
+			<div class="hot-sell">
+				<div class="hot-sell-titel">
+					<div class="hot-sell-logo">
+						<p>Популярные мотошины</p>
+					</div>
+					<div class="button-hot-sell">
+						<p>Смотреть все</p> <img src="img/Vector-31.svg" alt=""> </div>
+				</div>
+				<div class="container-swiper">
+					<button id="customPrevButton2"><img src="img/Vector-35.svg" alt=""></button>
+					<div class="swiper SwiperHotSell" id="swiper2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCarta">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovorit"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-7.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide2">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide2"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-7.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide3">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide3"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-7.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide4">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide4"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-7.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide5">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide5"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-7.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide6">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide6"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-7.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide7">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide7"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide8">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide8"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide9">
+									<div class="sun"> <img src="img/Group-80.svg" alt=""> </div>
+									<div class="button-carta-fovorit" id="buttonFovoritslide9"> <img src="img/Group-242.svg" alt=""> <img src="img/Group-243.svg" alt=""> </div>
+									<div class="product"> <img src="img/image-6.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button id="customNextButton2"><img src="img/Vector-36.svg" alt=""></button>
+				</div>
+			</div>
+			<div class="hot-sell">
+				<div class="hot-sell-titel">
+					<div class="hot-sell-logo">
+						<p>Популярные диски</p>
+					</div>
+					<div class="button-hot-sell">
+						<p>Смотреть все</p> <img src="img/Vector-31.svg" alt=""> </div>
+				</div>
+				<div class="container-swiper">
+					<button id="customPrevButton3"><img src="img/Vector-35.svg" alt=""></button>
+					<div class="swiper SwiperHotSell" id="swiper3">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCarta">
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide2">
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide3">
+									<div class="sun"><img src="img/flame-2.svg" alt=""></div>
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="remained-cart">
+									<div class="hot-sell-carta" id="hotSellCartaslide4">
+										<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+										<div class="product-text">
+											<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+												<div class="reviews-text">
+													<p>4.84</p>
+												</div>
+											</div>
+											<div class="product-price">
+												<div class="product-price-actual">
+													<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+												<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+											</div>
+											<div class="name-carta">
+												<p>Yokohama BluEarth *Winter
+													<br> V905 205 45 R17 88V </p>
+											</div>
+										</div>
+										<div class="button-hot-sell-carta-hover">
+											<div class="counter">
+												<button type="button" class="minus">-</button>
+												<p class="count">0</p>
+												<button type="button" class="plus">+</button>
+											</div>
+											<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+										</div>
+									</div>
+									<div class="remained">
+										<p>осталась 1 шт</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide5">
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide6">
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide7">
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide8">
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="hot-sell-carta" id="hotSellCartaslide9">
+									<div class="product"> <img src="img/image-44.svg" alt=""> </div>
+									<div class="product-text">
+										<div class="reviews"> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-2.svg" alt=""> <img src="img/Star-1.svg" alt="">
+											<div class="reviews-text">
+												<p>4.84</p>
+											</div>
+										</div>
+										<div class="product-price">
+											<div class="product-price-actual">
+												<p>2 500</p> <img src="img/Vector-34.svg" alt=""> </div>
+											<div class="product-price-discount"> <img src="img/Group-7.svg" alt=""> </div>
+										</div>
+										<div class="name-carta">
+											<p>Yokohama BluEarth *Winter
+												<br> V905 205 45 R17 88V </p>
+										</div>
+									</div>
+									<div class="button-hot-sell-carta-hover">
+										<div class="counter">
+											<button type="button" class="minus">-</button>
+											<p class="count">0</p>
+											<button type="button" class="plus">+</button>
+										</div>
+										<a href="card.html"><button class="active-hot-sell-cart" href="model-card.html" type="button">В корзину</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button id="customNextButton3"><img src="img/Vector-36.svg" alt=""></button>
+				</div>
+			</div>
+		</section>
+		<section class="maker">
+			<div class="maker-titel">
+				<p>Популярные производители</p>
+			</div>
+			<div class="maker-carta">
+				<div class="maker-carta-fon"> <img src="img/image-8.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-michelin"> <img src="img/image-9.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-BFGoodrich"> <img src="img/image-10.svg" alt=""> </div>
+				<div class="maker-carta-fon"> <img src="img/image-8.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-michelin"> <img src="img/image-9.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-BFGoodrich"> <img src="img/image-10.svg" alt=""> </div>
+				<div class="maker-carta-fon"> <img src="img/image-8.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-michelin"> <img src="img/image-9.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-BFGoodrich"> <img src="img/image-10.svg" alt=""> </div>
+				<div class="maker-carta-fon"> <img src="img/image-8.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-michelin"> <img src="img/image-9.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-BFGoodrich"> <img src="img/image-10.svg" alt=""> </div>
+				<div class="maker-carta-fon"> <img src="img/image-8.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-michelin"> <img src="img/image-9.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-BFGoodrich"> <img src="img/image-10.svg" alt=""> </div>
+				<div class="maker-carta-fon"> <img src="img/image-8.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-michelin"> <img src="img/image-9.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-BFGoodrich"> <img src="img/image-10.svg" alt=""> </div>
+			</div>
+			<div class="maker-carta-adop">
+				<div class="maker-carta-fon"> <img src="img/image-8.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-michelin"> <img src="img/image-9.svg" alt=""> </div>
+				<div class="maker-carta-fon market-carta-edit-BFGoodrich"> <img src="img/image-10.svg" alt=""> </div>
+			</div>
+		</section>
+		<section class="shop-info">
+			<div class="shop-info-text">
+				<p>Интернет-магазин шин Шины Мигом</p>
+				<h1>В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто. Предоставляем услуги по шиномонтажу и сезонному хранению шин. В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто. Предоставляем услуги по шиномонтажу и сезонному хранению шин.В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто. Предоставляем услуги по шиномонтажу и сезонному хранению шин.</h1> </div>
+		</section>
+	</main>
+	<footer class="footer-centr">
+		<div class="footer-carta-container">
+			<div class="footer-carta-adop">
+				<div class="footer-carta">
+				<p>Каталог</p>
+				<button type="button">Шины</button>
+				<br>
+				<button type="button">Диски</button>
+				<br>
+				<button type="button">Пункты выдачи</button>
+			</div>
+			<div class="footer-carta">
+				<p>О магазине</p>
+				<button type="button">Оплата и доставка</button>
+				<br>
+				<button type="button">Гарантия</button>
+				<br>
+				<button type="button">Акции</button>
+				<br>
+				<button type="button">Блог</button>
+			</div>
+			</div>
+			<div class="footer-carta-adop d-g-footer-carta-adop">
+				<div class="footer-carta">
+				<p>Контакты</p>
+				<div class="footer-carta-col"> <img src="img/Vector-37.svg" alt="">
+					<button type="button">8 (800) 555-13-26</button>
+				</div>
+				<div class="footer-carta-col"> <img src="img/Envelope.svg" alt="">
+					<button type="button">info@shiny-migom.ru</button>
+				</div>
+				<div class="footer-carta-col"> <img src="img/Instagram.svg" alt="">
+					<button type="button">Мы в инстаграм</button>
+				</div>
+			</div>
+			<div class="footer-carta bor-carta-footer">
+				<button type="button">Политика конфидециальности</button>
+				<br>
+				<button type="button">Договор оферты</button>
+				<br>
+				<button type="button">Карта сайта</button>
+				<br>
+				<button type="button">DATSKY - создание и продвижение сайтов</button>
+				<div class="footer-carta-col"> <img src="img/payments-1.svg" alt=""> </div>
+			</div>
+			</div>
+			
+		</div>
+		<div class="footer-info">
+			<h1>Обращаем ваше внимание на то, что данный сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Наличие товара и его стоимость может отличаться от заявленной на данном сайте. Указанное выше наличие в нашем интернет-магазине является ориентировочным и не учитывает бронирование товара при оплате по безналичному расчету, а также продажи, которые произошли с момента последнего обновления данных. Вы можете оставить заявку на резерв товара оформив заказ на сайте. Бронирование товара осуществляется после подтверждения заказа менеджером.</h1> </div>
+		<div class="copyright">
+			<p>2016-2021 © "Шины мигом"</p>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/drop-down.js"></script>
+	<script src="js/drop-down-filters.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+  // Получаем элементы
+  const byCarBtn = document.getElementById('by-car-btn');
+  const bySizeBtn = document.getElementById('by-size-btn');
+  const byCarBlock = document.getElementById('by-car-block');
+  const bySizeBlock = document.getElementById('by-size-block');
+
+  // Обработчик для кнопки "По авто"
+  byCarBtn.addEventListener('click', function() {
+    byCarBtn.classList.add('active');
+    bySizeBtn.classList.remove('active');
+    byCarBlock.style.display = 'grid';
+    bySizeBlock.style.display = 'none';
+  });
+
+  // Обработчик для кнопки "По размеру"
+  bySizeBtn.addEventListener('click', function() {
+    bySizeBtn.classList.add('active');
+    byCarBtn.classList.remove('active');
+    bySizeBlock.style.display = 'grid';
+    byCarBlock.style.display = 'none';
+  });
+});
+	</script>
+</body>
+
+</html>
